@@ -1,0 +1,563 @@
+.newsLetter {
+   width: 70%;
+   height: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   padding: 0px 140px;
+   margin-bottom: 150px;
+   background: linear-gradient(180deg, #3110ed, #e1ffea22 60%);
+
+   gap: 30px;
+}
+
+.newsLetter h1 {
+   color: #171717;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.newsLetter p {
+   color: #171717;
+   font-size: 20px;
+}
+
+.newsLetter div {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: white;
+   width: 730px;
+   height: 70px;
+   border-radius: 80px;
+   border: 1px solid rgb(8, 8, 65);
+}
+
+.newsLetter input {
+   width: 500px;
+   margin-left: 30px;
+   border: none;
+   outline: none;
+   color: #171717;
+   font-family: Poppins;
+   font-size: 16px;
+}
+
+.newsLetter div button {
+   width: 210px;
+   height: 70px;
+   border-radius: 80px;
+   background: rgb(8, 8, 65);
+   color: white;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+@media(max-width:1280px) {
+   .newsLetter {
+      width: 68;
+      margin-left: 5vw;
+      margin-top: 2vh;
+      ;
+   }
+
+   .newsLetter h1 {
+      margin-top: 3vw;
+   }
+}
+
+@media(max-width:1024px) {
+   .newsLetter {
+      width: 70%;
+      margin-left: 1.5vw;
+   }
+
+   .newsLetter h1 {
+      margin-top: 3vw;
+   }
+}
+
+@media(max-width:920px) {
+   .newsLetter {
+      width: 65%;
+      margin-left: 2.5vw;
+      margin-top: -25vh;
+   }
+
+   .newsLetter h1 {
+      margin-top: 3vw;
+   }
+}
+
+@media(max-width:820px) {
+   .newsLetter {
+      margin-top: -45vh;
+      width: 524px;
+      margin-left: 0px;
+   }
+
+   .newsLetter input {
+      width: 400px;
+      margin-left: 40px;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 16px;
+   }
+
+   .newsLetter div button {
+      width: 170px;
+      height: 70px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+   }
+}
+
+@media(max-width:768px) {
+   .newsLetter {
+      width:488px;
+      margin-top: -16vh;
+      margin-left: 0px;
+   }
+}
+
+@media(max-width:540px) {
+   div.newsLetter {
+      width: 260px;
+     margin-top:7vh;
+        /*    margin-left:-8vw; */
+
+   }
+
+   div.dos {
+      width: 345px;
+   }
+
+   .newsLetter input {
+      width: 70px;
+      margin-left: 2vw;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 14px;
+   }
+
+   .newsLetter div button {
+      width: 100px;
+      height: 70px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 0vw;
+   }
+
+   .newsLetter h1 {
+      margin-top: 10vw;
+      font-size: 20px;
+   }
+}
+
+@media(max-width:430px) {
+   div.newsLetter {
+      width: 160px;
+      /*  margin-top:-17vh;
+         margin-left:-8vw; */
+
+   }
+   .newsLetter input {
+      width: 200px;
+      margin-left: 30vw;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 16px;
+   }
+
+   .newsLetter div button {
+      width: 250px;
+      height: 35px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 70vw;
+      margin-top:3vh
+   }
+   .newsLetter div {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      width: 220px;
+      height: 50px;
+      border-radius: 80px;
+      border: 1px solid rgb(8, 8, 65);
+   }
+
+   .newsLetter h1 {
+      margin-left: -10vw;
+      font-size: 18px
+   }
+
+   .newsLetter p {
+      color: #171717;
+      font-size: 16px;
+      margin-left: -8vw;
+   }
+}
+
+@media(max-width:414px){
+   div.newsLetter{
+      width: 140px;
+      margin-top: 1px; 
+   }
+
+   .newsLetter input {
+      width: 100px;
+      margin-left: 10vw;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 16px;
+   }
+
+   div.dos {
+      width: 200px;
+      margin-left: -4px;
+   }
+
+   .newsLetter div {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      width: 220px;
+      height: 50px;
+      border-radius: 80px;
+      border: 1px solid rgb(8, 8, 65);
+   }
+
+   .newsLetter div button {
+      width: 200px;
+      height: 35px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 4vh;
+      margin-left: 15px;
+   }
+
+   .newsLetter h1 {
+      margin-right: -16vw;
+      margin-top: 8vh;
+      font-size: 18px
+   }
+
+   .newsLetter p {
+      color: #171717;
+      font-size: 16px;
+      margin-left: -3vw;
+   }
+}
+
+@media(max-width:412px) {
+   .newsLetter {
+      width: 163px;
+      margin-top: 1px;
+   }
+
+   .newsLetter input {
+      width: 100px;
+      margin-left: 10vw;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 16px;
+   }
+
+   div.dos {
+      width: 300px;
+   }
+
+   .newsLetter div {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      width: 230px;
+      height: 50px;
+      border-radius: 80px;
+      border: 1px solid rgb(8, 8, 65);
+   }
+
+   .newsLetter div button {
+      width: 200px;
+      height: 35px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 4vh;
+      margin-left: 15px;
+   }
+
+   .newsLetter h1 {
+      margin-right: -27vw;
+      margin-top: 8vh;
+      font-size: 18px
+   }
+
+   .newsLetter p {
+      color: #171717;
+      font-size: 16px;
+      margin-left: -2vw;
+   }
+}
+
+@media(max-width:390px) {
+  div.newsLetter {
+      width: 118px;
+      margin-top: 125vh;
+   }
+
+   .newsLetter div {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      width: 230px;
+      height: 50px;
+      border-radius: 80px;
+      border: 1px solid rgb(8, 8, 65);
+      margin-left: 0px;
+   }
+
+   .newsLetter input {
+      width: 200px;
+      margin-left: 19vw;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 16px;
+   }
+
+   .dos {
+      margin-left: -25vw;
+   }
+
+   .newsLetter div button {
+      width: 200px;
+      height: 35px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 46vw;
+      margin-top: 5vh;
+   }
+
+   button {
+      margin-left: 4vw;
+   }
+
+   .newsLetter h1 {
+      margin-left: 12px;
+      font-size: 17px
+   }
+
+   .newsLetter p {
+      color: #171717;
+      font-size: 15px;
+      margin-left: 9px;
+   }
+}
+
+@media(max-width:375px) {
+   div.newsLetter {
+      width: 100px;
+      margin-top: 940px;
+      margin-left: 0px;
+   }
+
+   .newsLetter div {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      width: 230px;
+      height: 50px;
+      border-radius: 80px;
+      border: 1px solid rgb(8, 8, 65);
+   }
+
+   .newsLetter input {
+      width: 200px;
+      margin-left: 15vw;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 16px;
+   }
+
+   .dos {
+      margin-right: 15vw;
+   }
+
+   .newsLetter div button {
+      width: 200px;
+      height: 35px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 46vw;
+      margin-top: 5vh;
+   }
+
+   button {
+      margin-left: 4vw;
+   }
+
+   .newsLetter h1 {
+      margin-left: -20vw;
+      font-size: 17px
+   }
+
+   .newsLetter p {
+      color: #171717;
+      font-size: 15px;
+      margin-left: -18vw;
+   }
+}
+
+@media(max-width:360px) {
+   div.newsLetter {
+      width:78px;
+      height:500px;
+      margin-top: 130vh;
+      
+   }
+
+   .newsLetter div {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      width: 230px;
+      height: 50px;
+      border-radius: 80px;
+      border: 1px solid rgb(8, 8, 65);
+   }
+
+   button {
+      margin-left: 4vw;
+   }
+
+   .dos {
+      margin-left: -25vw;
+   }
+
+   .newsLetter input {
+      width: 60px;
+      margin-left: 10vw;
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 16px;
+   }
+
+   .newsLetter div button {
+      width: 200px;
+      height: 35px;
+      border-radius: 80px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 71vw;
+   }
+
+   .newsLetter h1 {
+      margin-left: -20vw;
+      font-size: 18px
+   }
+
+   .newsLetter p {
+      color: #171717;
+      font-size: 16px;
+      margin-left: -18vw;
+   }
+}
+
+@media(max-width:280px) {
+   div.newsLetter {
+      width: 11px;
+      margin-top: 140vh;
+   }
+
+   .newsLetter div {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      width: 230px;
+      height: 50px;
+      border-radius: 80px;
+      border: 1px solid rgb(8, 8, 65);
+   }
+
+   .newsLetter input {
+      width: 100px;
+      margin: 4px 30px;
+
+      border: none;
+      outline: none;
+      color: #171717;
+      font-family: Poppins;
+      font-size: 12px;
+   }
+
+   .newsLetter div button {
+      width: 220px;
+      height: 35px;
+      border-radius: 60px;
+      background: rgb(8, 8, 65);
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+      margin-right: 107vw;
+      margin-top: 5vh;
+   }
+
+   .newsLetter h1 {
+      margin-left: -30vw;
+      font-size: 14px
+   }
+
+   .newsLetter p {
+      color: #171717;
+      font-size: 10px;
+      margin-left: -30vw;
+   }
+}

@@ -1,0 +1,121 @@
+.loginSignup{
+   width:100%;
+   height:80vh;
+   background:rgb(163, 163, 184);
+   padding-top:100px;
+}
+.loginsignup-container{
+width:40vw;
+height:60vh;
+background:white;
+margin:auto;
+padding:40px 60px;
+}
+.loginsignup-container h1{
+   font-family:Poppins;
+   margin:1vh 0px;
+}
+.loginsignup-fields{
+   display:flex;
+   flex-direction:column;
+   gap:2vh 2vw;
+   margin-top:3vh;
+   margin-bottom: 2vh;
+}
+.loginsignup-fields input{
+   height:4vh;
+   width:100%;
+   padding-left:20px;
+   border:1px solid #c9c9c9;
+   outline: none;
+   color:#c5c5c5;
+   font-size:1rem;
+   
+}
+.loginsignup-container button{
+   width:41.7vw;
+   height:4vh;
+   color:white;
+   background: rgb(126, 126, 184);
+   margin-top:30px;
+   border:none;
+   font-size:1.2rem;
+   font-weight:400;
+   cursor:pointer;
+}
+.logingsignup-login{
+margin-top:2vh ;
+color:#c5c5c5;
+font-size:1rem;
+font-weight: 400;
+}
+.logingsignup-login span{
+   color:rgb(126, 126, 184);
+   font-weight:500;
+}
+.loginsignup-agree{
+   display:flex;
+   align-items:center;
+   margin-top:1.2vh;
+   gap:2vh 2vw;
+   font-size:.7rem;
+   font-weight: 400;
+}
+@media(max-width:375px){
+   .loginsignup-container h1{
+      font-family:Poppins;
+      margin:1vh 0px;
+      font-size:20px
+   }
+   .loginsignup-fields input{
+      height:4vh;
+      width:100%;
+      padding-left:20px;
+      border:1px solid #c9c9c9;
+      outline: none;
+      color:#c5c5c5;
+      font-size:.5rem;
+      
+   }
+   .logingsignup-login{
+      margin-top:2vh ;
+      color:#c5c5c5;
+      font-size:.5rem;
+      font-weight: 400;
+      }
+      .loginsignup-agree{
+         font-size:10px;
+      }
+      .loginsignup-container button{
+         font-size: 12px;
+      }
+}
+@media(max-width:280px){
+   .loginsignup-container h1{
+      font-family:Poppins;
+      margin:1vh 0px;
+      font-size:18px
+   }
+   .loginsignup-fields input{
+      height:4vh;
+      width:100%;
+      padding-left:20px;
+      border:1px solid #c9c9c9;
+      outline: none;
+      color:#c5c5c5;
+      font-size:.5rem;
+      
+   }
+   .logingsignup-login{
+      margin-top:2vh ;
+      color:#c5c5c5;
+      font-size:.5rem;
+      font-weight: 400;
+      }
+      .loginsignup-agree{
+         font-size:10px;
+      }
+      .loginsignup-container button{
+         font-size: 12px;
+      }
+}
